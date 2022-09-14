@@ -1,13 +1,100 @@
 body {
   background-color: #F87060;
+  padding: 0px;
+  margin: 0px;
 };
-.title {
+.all {
+
+}
+.pt1 {
+   min-height: 100vh;
+   margin: 0 auto;
+   display: flex;
+}
+
+.hometext {
   position: absolute;
-  top: 15%;
+  top: 14%;
+}
+.title {
   color: white;
   font-size: 120px;
   font-family: ibm-plex-sans-condensed, sans-serif;
-  font-weight: 700;
+  font-weight: 1000;
   font-style: normal;
-  padding: 24px;
+  padding-left: 24px;
+  margin-bottom: 24px;
+  line-height: 120px;
 }
+.subtitle {
+  font-size: 40px;
+  font-family: ibm-plex-sans-condensed, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  padding-left: 24px;
+  color: white;
+}
+.pt2 {
+   min-height: 100vh;
+   margin: 0 auto;
+   display: flex;
+   background-color: white;
+}
+
+
+
+.pt2heading {
+  padding: 0px;
+  color: #102542;
+  font-size: 80px;
+  font-family: ibm-plex-sans-condensed, sans-serif;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+}
+.pt2list {
+  font-size: 32px;
+  font-family: 'Outfit', sans-serif;
+  font-weight:100;
+  color: #102542;
+  position: relative;
+  top: 140px;
+  max-width: 46%;
+  margin-left: 40px;
+}
+
+.pt2list2 {
+  font-size: 32px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 100;
+  color: #102542;
+  position: relative;
+  top: 140px;
+  left: 40px;
+  max-width: 46%;
+  margin-left: 16px;
+}
+.pt2button {
+  position: relative;
+  top: 600px;
+  right: 47%;
+  width: 300px;
+  height: 80px;
+  margin: 0 auto;
+  background-color: #F87060;
+
+  border-radius: 16px;
+}
+.buttontext {
+  color: white;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  margin: auto;
+}
+.pt3 {
+   min-height: 100vh;
+   margin: 0 auto;
+   display: flex;
+}
+
