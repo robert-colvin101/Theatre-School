@@ -19,8 +19,8 @@ body {
 .title {
   color: white;
   font-size: 120px;
-  font-family: ibm-plex-sans-condensed, sans-serif;
-  font-weight: 1000;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
   font-style: normal;
   padding-left: 24px;
   margin-bottom: 24px;
@@ -41,16 +41,14 @@ body {
    background-color: white;
 }
 
-
-
 .pt2heading {
   padding: 0px;
   color: #102542;
-  font-size: 80px;
-  font-family: ibm-plex-sans-condensed, sans-serif;
+  font-size: 100px;
+  font-family: 'Outfit', sans-serif;
   font-weight: 400;
   position: absolute;
-  left: 50%;
+  left: 38%;
 }
 .pt2list {
   font-size: 32px;
@@ -82,13 +80,13 @@ body {
   height: 80px;
   margin: 0 auto;
   background-color: #F87060;
-
   border-radius: 16px;
+
 }
 .buttontext {
   color: white;
   font-family: 'Outfit', sans-serif;
-  font-weight: 400;
+  font-weight: 100;
   font-size: 32px;
   margin: auto;
 }
@@ -97,4 +95,50 @@ body {
    margin: 0 auto;
    display: flex;
 }
+.pt3title {
+  position: absolute;
+  margin-left: 16px;
+  margin-top: 65px;
+  margin-bottom: 16px;
+  color: white;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  font-size: 100px;
+}
+.pt3text {
+  position: relative;
+  top: 200px;
+  max-width: 90%;
+  margin-left: 40px;
+  font-size: 26px;
+  font-family: 'Outfit', sans-serif;
+  font-weight:100;
+  color: white;
+}
+.pt3button {
+  background-color:#102542;
+  position: relative;
+  top: 700px;
+  right: 34%;
+  width: 1000px;
+  height: 80px;
+  margin: 0 auto;
+  border-radius: 16px;
 
+}
+.pt4 {
+   min-height: 100vh;
+   margin: 0 auto;
+   display: flex;
+
+}
+.pt4box {
+  position:relative;
+  top: 250px;
+  height: 70vh;
+  min-width: 80%;
+   margin: 0 auto;
+   display: flex;
+  background-color: #102542;
+
+}
