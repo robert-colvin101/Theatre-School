@@ -133,12 +133,24 @@ body {
 
 }
 .pt4box {
+  color: white;
   position:relative;
-  top: 250px;
+  top: 160px;
   height: 70vh;
-  min-width: 80%;
+  width:90%;
    margin: 0 auto;
-   display: flex;
   background-color: #102542;
+  font-size: 26px;
+  font-family: 'Outfit', sans-serif;
+  font-weight:100;
+}
+.boxtitle {
+  position: relative;
+  margin-left: 16px;
+  margin-bottom: 0px;
+}
 
+.boxquotes {
+  margin-left: 16px;
+  position: relative;
 }
