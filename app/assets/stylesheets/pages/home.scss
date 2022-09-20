@@ -154,3 +154,65 @@ body {
   margin-left: 16px;
   position: relative;
 }
+
+.pt5 {
+  background-color: white;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+}
+.pt5title {
+  position: relative;
+  margin-left: 16px;
+  margin-top: 65px;
+  margin-bottom: 0px;
+  width: 100%;
+  color: #F87060;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  font-size: 100px;
+}
+.pt5sub {
+  margin-top: 0px;
+  color: #B3A394;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  margin-left: 16px;
+
+}
+.pt5teacher1 {
+  display: flex;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+}
+.teachertitle {
+  margin-top: 0px;
+  color: #102542;
+  margin-bottom: 0px;
+  margin-left: 16px;
+}
+.teachersub {
+  margin-top: 0px;
+  color: #F87060;
+  margin-bottom: 0px;
+  margin-left: 16px;
+}
+.teacherbio {
+  max-width: 700px;
+  color: #B3A394;
+  margin-top: 0px;
+  margin-bottom: 16px;
+  margin-left: 16px;
+}
+.robimg {
+  margin-bottom:16px;
+  margin-left: 16px;
+  width: 200px;
+  height:250px;
+}
+.austinimg {
+  margin-left: 16px;
+  width: 200px;
+  height:250px;
+}
