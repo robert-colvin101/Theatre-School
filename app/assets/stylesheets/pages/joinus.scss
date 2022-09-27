@@ -8,10 +8,21 @@
   font-family: 'Outfit', sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin: 40px auto;
+  margin: 0 auto;
   margin-top: 60px;
   width: 500px;
   padding-top: 20px;
+}
+.joinsub {
+  color: white;
+  font-size: 60px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  margin-top: -100px;
+  position: relative;
+  margin: 0 auto;
+  width: 400px;
+  text-align: center;
 }
 
 .joinbox {
@@ -22,12 +33,11 @@
   border-radius: 8px;
   margin: 0 auto;
   margin-bottom: 32px;
-  padding-left: 32px;
   width: 75%;
   height: 50%;
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 24px;
+  grid-gap: 8px;
   grid-template-rows: 1fr 1fr 1fr;
 }
 
@@ -45,7 +55,7 @@
   margin-bottom: 32px;
   border-radius: 16px;
 };
-.buttontext {
+.buttontext2 {
   position: absolute;
   top:20px;
   width: 200px;
