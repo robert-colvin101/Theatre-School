@@ -1,7 +1,15 @@
  <div class="topnav">
   <%= image_tag('profile-image', class:'profile-image') %>
-  <a class="active" href="#home">HOME</a>
-  <a href="#news">THE COURSE</a>
-  <a href="#contact">ABOUT US</a>
-  <a href="#about">FAQs</a>
+  <%= link_to root_path do %>
+  <div>Home</div>
+  <% end %>
+  <%= link_to timetable_path do %>
+  <div>The Course</div>
+  <% end %>
+  <%= link_to faqs_path do %>
+  <div>FAQs</div>
+  <% end %>
+  <%= link_to  new_user_session_path do %>
+  <div>Login</div>
+  <% end  %>
 </div>
