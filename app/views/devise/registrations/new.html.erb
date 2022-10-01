@@ -24,6 +24,20 @@
     <%= f.password_field :password_confirmation, autocomplete: "new-password" %>
   </div>
 
+<div class="field">
+              <%= f.text_field :first_name,
+                      placeholder: "Name", label: false,
+                      autofocus: true,
+                      input_html: { autocomplete: "first_name" }%>
+            </div>
+
+<div class="field">
+          <%= f.text_field :last_name, as: :text,
+                      placeholder: "Last Name", label: false,
+                      autofocus: true,
+                      input_html: { autocomplete: "about_me" }%>
+        </div>
+
   <div class="actions">
     <%= f.submit "Sign up" %>
   </div>
