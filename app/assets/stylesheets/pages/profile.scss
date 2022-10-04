@@ -1,3 +1,44 @@
 .proftitle {
   margin-top: 80px;
 }
+.sidenav {
+  margin-top: 60px;
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #102542;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Page content */
+#main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+}
+.sidenav a {
+  font-family: ibm-plex-sans-condensed, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #f2f2f2;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
