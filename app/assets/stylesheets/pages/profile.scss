@@ -1,23 +1,29 @@
-.proftitle {
-  margin-top: 80px;
-}
+
+
+// SIDE NAV
+
 .sidenav {
   margin-top: 60px;
   height: 100%;
   width: 200px;
-  position: fixed;
+  position: absolute;
   z-index: 1;
   top: 0;
   left: 0;
   background-color: #102542;
   overflow-x: hidden;
   padding-top: 20px;
+  z-index:0;
 }
+
 
 /* Page content */
 #main {
-  margin-left: 200px; /* Same as the width of the sidenav */
+  margin-top: 68px;
+  margin-left: 208px;
+  height: 100vh; /* Same as the width of the sidenav */
 }
+
 .sidenav a {
   font-family: ibm-plex-sans-condensed, sans-serif;
   font-weight: 700;
@@ -42,6 +48,8 @@
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+// SUB NAV DROPDOWN
 
 .subnav {
   float: left;
