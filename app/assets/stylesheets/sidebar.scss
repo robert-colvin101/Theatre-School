@@ -1,0 +1,85 @@
+
+
+// SIDE NAV
+
+.sidenav {
+  margin-top: 60px;
+  height: 100%;
+  width: 200px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #102542;
+  overflow-x: hidden;
+  padding-top: 20px;
+  z-index:0;
+}
+
+
+/* Page content */
+#main {
+  margin-top: 68px;
+  margin-left: 208px;
+  height: 100vh; /* Same as the width of the sidenav */
+}
+
+.sidenav a {
+  font-family: ibm-plex-sans-condensed, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #f2f2f2;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 24px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+// SUB NAV DROPDOWN
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+/* Style the subnav content - positioned absolute */
+.subnav-content {
+  display: none;
+  position: relative;
+  left: 0;
+  background-color: red;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Style the subnav links */
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+/* Add a grey background color on hover */
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnav-content {
+  display: block;
+}
