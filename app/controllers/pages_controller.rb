@@ -3,4 +3,7 @@ class PagesController < ApplicationController
   end
   def timetable
   end
+  def profile
+    @user = current_user
+  end
 end
