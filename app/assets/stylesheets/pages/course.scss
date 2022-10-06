@@ -8,27 +8,69 @@
   font-family: ibm-plex-sans-condensed, sans-serif;
   font-weight: 700;
 }
-.taskbox {
+
+.line {
+  margin-top: -12px;
+  width:98%;
+  background-color: #B3A394;
+  height: 4px;
+  position: relative;
+  top: 12px;
+}
+
+.subnav1 {
+  position: relative;
   background: white;
   color: #102542;
-
   font-family: ibm-plex-sans-condensed, sans-serif;
   font-weight: 700;
   font-style: normal;
   border-radius: 8px;
   margin-right: 8px;
-  padding-bottom: 8px;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  padding-left: 8px;
+  float: left;
+  overflow: hidden;
+  width: 98%;
 
 }
-.tasktitle {
+
+/* Style the subnav content - positioned absolute */
+.subnavtext {
+  color: #102542;
+  }
+
+.subnav-content1 {
+  margin-right: 8px;
+  padding-bottom: 8px;
+  display: none;
+  position: relative;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+.subnav1 a {
+  text-decoration: none;
+  color: #102542;
+}
+
+/* Style the subnav links */
+.subnav-content1 a a:visited {
   padding-left: 8px;
   font-size: 18px;
-  }
-.line {
-  margin-left: 8px;
-  margin-top: -12px;
-  width:98%;
-  background-color: #B3A394;
-  height: 4px;
-
+  float: left;
+  color: white;
+  text-decoration: none;
 }
+
+/* Add a grey background color on hover */
+.subnav-content1 a:onclick {
+  background-color: #eee;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav1:hover .subnav-content1 {
+  display: block;
+};
+
