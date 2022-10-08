@@ -1,5 +1,5 @@
 .coursemain {
-  margin-top: 68px;
+  margin-top: 0px;
   margin-left: 208px;
   height: 100vh;
 }
@@ -8,7 +8,27 @@
   font-family: ibm-plex-sans-condensed, sans-serif;
   font-weight: 700;
 }
-
+.titlebox {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 16px;
+}
+.coursetitle {
+  color: white;
+  font-size: 80px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: -16px;
+}
+.weektitle {
+  color: white;
+  font-size: 80px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: -16px;
+}
 .line {
   margin-top: -12px;
   width:98%;
@@ -35,9 +55,24 @@
   width: 98%;
 
 }
+.videobox {
+  margin-top: 16px;
+  display: flex;
+  width: 100%;
+}
+.inlinevid {
+  margin: 8px;
+  width:50%;
+  height:30%;
+}
+.vid {
+  width:100%;
+  height:100%;
+}
 
 /* Style the subnav content - positioned absolute */
 .subnavtext {
+  width: 50%;
   color: #102542;
   }
 
