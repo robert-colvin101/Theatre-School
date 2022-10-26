@@ -4,6 +4,7 @@
   height: 100vh;
 }
 .pre {
+  width: 60%;
   color: #102542;
   font-family: ibm-plex-sans-condensed, sans-serif;
   font-weight: 700;
@@ -12,18 +13,20 @@
   display: flex;
   justify-content: space-between;
   margin-right: 16px;
+  align-items: flex-end;
 }
 .coursetitle {
   color: white;
-  font-size: 80px;
+  font-size: 68px;
   font-family: 'Outfit', sans-serif;
   font-weight: 400;
   font-style: normal;
   margin-bottom: -16px;
 }
 .weektitle {
+  opacity:0.6;
   color: white;
-  font-size: 80px;
+  font-size: 68px;
   font-family: 'Outfit', sans-serif;
   font-weight: 400;
   font-style: normal;

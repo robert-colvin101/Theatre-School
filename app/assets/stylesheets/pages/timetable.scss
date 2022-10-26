@@ -12,7 +12,18 @@
 .TTtext {
   padding-left: 32px;
   color: white;
+  font-size: 18px;
   font-family: 'Outfit', sans-serif;
   font-weight: 400;
-  width: 40%;
+  width: 26%;
+}
+.timetable {
+  width: 60%;
+  height: auto;
+  align-items: right;
+  padding-left: 48px;
+  padding-top: 16px;
+}
+.ttbox {
+  display: flex;
 }
