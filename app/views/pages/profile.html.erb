@@ -4,7 +4,19 @@
 
 <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
 <div id="main">
-  <h1 class="proftitle"><h1>Hi <%= "#{current_user.first_name}"%></h1>
+  <div class="profilesection">
+  <h1 class="proftitle">Hi <%= "#{current_user.first_name}"%></h1>
+
+<%= image_tag('profile-image', class:'profile-image2') %>
+<% require 'time'
+date = Date.today.wday    # fourth day of the week.
+date = Date::DAYNAMES[Date.today.wday]   %>
+
+<h3 class="group">Group 1</h3>
+<h4 class="groupdates">February 4th-31st '22</h4>
+<p class='date'>Today is <%= date %></p>
+</div>
+
 
   <%= link_to edit_user_registration_path do %>
   <div class="edit">
@@ -12,6 +24,10 @@
   </div>
   <% end  %>
 </h1>
+
+
+
+
 
 </div>
 
