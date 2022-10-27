@@ -6,6 +6,7 @@ class PagesController < ApplicationController
     @course = false
   end
   def profile
+    @course = true
     @user = current_user
   end
   def mondaywk1

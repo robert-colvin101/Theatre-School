@@ -1,5 +1,5 @@
 .coursemain {
-  margin-top: 0px;
+  margin-top: 16px;
   margin-left: 208px;
   height: 100vh;
 }
@@ -14,6 +14,7 @@
   justify-content: space-between;
   margin-right: 16px;
   align-items: flex-end;
+  padding-bottom: 32px;
 }
 .coursetitle {
   color: white;
@@ -75,13 +76,17 @@
 
 /* Style the subnav content - positioned absolute */
 .subnavtext {
+  margin-bottom: 0px;
+  width: 98%;
+  color: #102542;
+  }
+  .subnavtext-vid {
   width: 50%;
   color: #102542;
   }
 
 .subnav-content1 {
   margin-right: 8px;
-  padding-bottom: 8px;
   display: none;
   position: relative;
   left: 0;
